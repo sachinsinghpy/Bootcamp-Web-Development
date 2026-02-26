@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textContent</title>
+</head>
+<body>
+    <div class="container">
+        <div id="welcome">Welcome to my form</div>
+        <form action="">
+            <input type="text" name="" id="username" value="Sachin">
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <script>
+        const welcome = document.getElementById("welcome")
+
+        // console.log(welcome)
+        // welcome.innerHTML = "<h1> Enter you info<\h>"
+
+            // welcome.textContent = "Fill this form"
+
+           const input =  document.getElementById("username")
+            input.value = "Sachin is a good boy"
+            console.log(input.value)
+
+            welcome.style.backgroundColor = "red"
+
+            welcome.style.fontSize = "28px"
+    </script>
+</body>
+</html>
